@@ -42,7 +42,7 @@ ipython
 jedi
 Jinja2
 joblib
-json==2.0.9
+
 jsonschema
 jupyter_client
 jupyter_core
