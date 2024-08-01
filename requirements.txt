@@ -92,7 +92,7 @@ python-dateutil
 python-dotenv
 pytz
 pytz-deprecation-shim
-pywin32==306
+
 PyYAML==6.0
 pyzmq==25.0.2
 regex
