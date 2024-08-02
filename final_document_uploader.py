@@ -256,8 +256,6 @@ with st.sidebar:
 if uploaded_file is not None and not st.session_state.document_processed:
     # Save uploaded file temporarily
     with st.spinner("🔄 Processing document..."):
-        
-
         temp_dir = tempfile.mkdtemp()
         if not os.path.exists(temp_dir):
             os.makedirs(temp_dir)
