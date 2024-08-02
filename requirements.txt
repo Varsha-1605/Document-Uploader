@@ -126,7 +126,7 @@ typing_extensions
 tzdata
 tzlocal
 urllib3
-uvicorn
+
 validators
 watchdog
 watchfiles
