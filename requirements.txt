@@ -136,7 +136,7 @@ websockets
 yarl
 zipp
 zstandard
-
+pysqlite3-binary
 
 
 
