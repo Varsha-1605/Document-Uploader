@@ -2,7 +2,7 @@ __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
-
+import tempfile
 import os
 import time
 import streamlit as st
@@ -256,7 +256,9 @@ with st.sidebar:
 if uploaded_file is not None and not st.session_state.document_processed:
     # Save uploaded file temporarily
     with st.spinner("🔄 Processing document..."):
-        temp_dir = "temp_docs"
+        
+
+        temp_dir = tempfile.mkdtemp()
         if not os.path.exists(temp_dir):
             os.makedirs(temp_dir)
         file_path = os.path.join(temp_dir, uploaded_file.name)
