@@ -42,7 +42,6 @@ ipython
 jedi
 Jinja2
 joblib
-
 jsonschema
 jupyter_client
 jupyter_core
@@ -90,9 +89,9 @@ pypdf
 pyrsistent
 python-dateutil
 python-dotenv
+python-docx
 pytz
 pytz-deprecation-shim
-
 PyYAML==6.0
 pyzmq==25.0.2
 regex
@@ -136,10 +135,6 @@ websockets
 yarl
 zipp
 zstandard
-
-
-
-
 pysqlite3-binary
 
 
