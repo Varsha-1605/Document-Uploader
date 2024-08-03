@@ -136,6 +136,7 @@ yarl
 zipp
 zstandard
 pysqlite3-binary
+unstructured>=0.15.0
 
 
 
